@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+}
+
+nav {
+    position: fixed;
+    height: 100vh;
+    width: 17vw;
+    overflow-y: scroll;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+li {
+    overflow: hidden;
+}
+
+li:hover img{
+    transform: scale(2.0);
+}
+
+img {
+    transition-duration: .3s;
+    height: auto;
+    width: 100%;
+}
+
+.info {
+    width: 75vw;
+    margin-left: auto;
+    padding-top: 50px;
+}
+
+.info .symbols {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 300px;
+}
+
+.info .symbols img{
+    width: 100px;
+    height: 100%;
+}
+
+.info table {
+    width: 500px;
+}
